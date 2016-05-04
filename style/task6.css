@@ -1,0 +1,6 @@
+body{width: 980px;margin:0 auto;height: 1386px;}
+h1,h2,h3,p{font-size: 12px;font-family: "黑体";}
+.wrap{width: 892px;margin: 0 auto;}
+.head{height: 61px;border-bottom:2px solid #938e9c;}
+.head h1{width: 103px;height: 15px;font-weight: normal;background: #d4545c; color: #fff;padding: 46px 0 0 7px;float: left;}
+.head p{float: right;color: #d45d5c;padding-top: 46px;}
