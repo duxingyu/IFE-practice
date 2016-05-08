@@ -8,7 +8,7 @@
 </head>
 <body>
 	<div id="topnav">
-		<h1 id="title">新世界</h1>
+		<h1 id="title">新世界<a href="" name="backTop"></a></h1>
 		<ul class="nav">
 			<li><a href="" class="active">首页</a></li>
 			<li><a href="">最新活动</a></li>
@@ -53,22 +53,26 @@
 				<dl>
 					<dd>
 						<h2>中国</h2>
-						<a href=""></a>
+						<a href="" class="downmenu"></a>
 						<ul>
 							<li></li>							
 						</ul>
 					</dd>
 					<dd>
 						<h2>省份</h2>
-						<a href=""></a>
+						<a href="" class="downmenu"></a>
 						<ul>
-							<li>北京市</li>
-							<li>天津市</li>							
+							<li><a href="">北京市</a></li>
+							<li>天津市</li>
+							<li>河北省</li>
+							<li>陕西省</li>
+							<li>内蒙古自治区</li>	
+							<li>辽宁省</li>						
 						</ul>
 					</dd>
 					<dd>
 						<h2>城市</h2>
-						<a href=""></a>
+						<a href="" class="downmenu"></a>
 						<ul>
 							<li></li>							
 						</ul>
@@ -78,6 +82,7 @@
 				</div>
 			</div>
 		</div>
+		<!-- <div class="cityBottom"> -->
 		<ul class="cityBottom">
 			<li>
 				<img src="imgs/task7/show1.jpg">
@@ -100,13 +105,24 @@
 				<p>奢侈消费大派送</p>
 			</li>
 		</ul>
+		<!-- </div> -->
 	</div>
 	<div class="intro">
 		<div class="world">
-			<img src="imgs/task7/world.jpg">
-			<ul>
+			<div class="worldPic">
+				<img src="imgs/task7/world.jpg">
+				<div class="desc">
+					<h3>新世界</h3>
+					<p>TIME</p>
+					<strong>@新世界 - 北京
+					       <br>2016.4.1
+					</strong>
+				</div>
+			</div>
+			<ul class="worldText">
 				<li>
 					<h3>新世界/<span>01</span></h3>
+					<div class="angle"></div>
 					<p>新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界</p>
 					<a href="" class="more">更多详情</a>
 					<div class="slide">
@@ -123,6 +139,7 @@
 				<a href="">查看更多</a>
 			</div>
 			<div class="middle">
+				<div class="angle"></div>
 				<h3>新世纪<br>关于爱生活的我们</h3>
 				<a href="">查看更多</a>
 			</div>
@@ -131,6 +148,55 @@
 				<div class="shade"></div>
 			</div>
 		</div>
+	</div>
+	<div class="join">
+		<div class="joinus">
+			<h2>成为我们的志愿者</h2>
+			<div></div>
+			<p>新世界的大家庭需要每一个爱生活的人的加入，如果你够年轻，有梦想，有激情<br>那就不要犹豫，快来加入我们，成为改变所有人生活的人</p>
+		</div>
+		<div class="agreement">
+			<div class="txt1 clear">
+				<h4>新世界志愿者协议</h4>
+				<p>加入新世界志愿者的人员必须遵守中华人民共共和国的相关法律法规，并且本着平等资源的原则 .</p>
+				<a href="">more</a>
+			</div>
+			<div class="txt2 clear">
+				<h4>新世界志愿者权利</h4>
+				<p>新世界志愿者享受新世界内部所有资源共享的权利，并且享受所在四新世界活动的优先参与资格</p>
+				<a href="">more</a>
+			</div>
+			<div class="txt3 clear">
+				<h4>更多条款</h4>
+				<a href="">more</a>
+			</div>
+		</div>
+		<form class="commit">
+			<input type="text" class="text" placeholder="姓名：">
+			<input type="text" class="text" placeholder="年龄：">
+			<input type="text" class="text" placeholder="联系方式：">
+			<input type="text" class="text" placeholder="联系地址：">
+			<textarea placeholder="请简单描述您梦想的生活："></textarea>
+			<input type="submit" value="提交申请" id="apply">
+		</form>
+	</div>
+	<div class="contect">
+		<h3>联系我们</h3>
+		<p>为了更好的获取我们最新的产品资讯，您可以留下您的电子邮箱快速订阅我们的产品资讯<br>也可以通过以下任何方式关注我们动态</p>
+		<form id="email">
+			<input type="text" placeholder="someone@email.com" class="text">
+			<input type="submit" value="提交" class="btn">
+		</form>
+		<div class="share">
+				<a href="" id="qq"></a>
+				<a href="" id="weibo"></a>
+				<a href="" id="twitter"></a>
+				<a href="" id="web"></a>
+		</div>
+	</div>
+	<div class="foot">
+		<p>@2016新世界</p>
+		<a href="#backTop">Back to top</a>
 	</div>
 </body>
 </html>
