@@ -1,0 +1,86 @@
+body {
+    font-family: "Microsoft Yahei", Arial, sans-serif;
+}
+.nav {
+    height: 56px;
+    background: #2189bf url(../img/task1_9/icon.gif) no-repeat 50px 10px;
+}
+.nav a {
+    float: right;
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 92px;
+    width: 42px;
+    height: 16px;
+    font-size: 12px;
+    line-height: 16px;text-indent: 18px;
+    background: url(../img/task1_9/log.gif) no-repeat 0 0;
+    color: #fff;
+}
+.nav div {
+    float: right;
+    margin-right: 20px;
+    margin-top: 14px;
+    background: url(../img/task1_9/serach.gif) no-repeat 0 0;
+}
+.nav input {
+    border: none;
+    outline: none;
+    display: inline-block;
+    width: 312px;
+    height: 28px;
+    line-height: 28px;
+    text-indent: 36px;
+    background: url(../img/task1_9/serIcon.gif) no-repeat 16px 6px;
+}
+.message {
+    width: 260px;
+    background: #2a2e3d;
+}
+.intro {
+    position: relative;
+    height: 150px;
+}
+.user-card {
+    position: absolute;
+    top: 18px;
+    left: 45px;
+    display: block;
+    width: 124px;
+    height: 58px;
+    background: url(../img/task1_9/user-box.gif) no-repeat 0 0;
+}
+.user-card img {
+    position: absolute;
+    top: 5px;
+    left: 6px;
+}
+.user-card span {
+    position: absolute;
+    top: 22px;
+    left: 75px;
+    color: #fff;
+}
+.user-other {
+    position: absolute;
+    top: 98px;
+    left: 30px;
+    height: 32px;
+}
+.user-other li {
+    float: left;
+    width: 24px;
+    padding: 0 32px;
+    font-size: 12px;
+    line-height: 16px;
+}
+.user-other a {
+    color: #6e8095;
+}
+#collect {
+    border-right: 2px solid #313545;
+}
+
+.contain {
+    background: #eeeeed;
+}

@@ -1,0 +1,307 @@
+        body {
+            width: 980px;
+            margin: 0 auto;
+            height: 1386px;
+        }
+        
+        h1,
+        h2,
+        h3,
+        p {
+            font-size: 12px;
+            font-family: "黑体";
+        }
+        
+        .wrap {
+            width: 892px;
+            margin: 0 auto;
+        }
+        
+        .head {
+            height: 61px;
+            border-bottom: 2px solid #938e9c;
+        }
+        
+        .head h1 {
+            width: 103px;
+            height: 15px;
+            font-weight: normal;
+            background: #d4545c;
+            color: #fff;
+            padding: 46px 0 0 7px;
+            float: left;
+        }
+        
+        .head p {
+            float: right;
+            color: #d45d5c;
+            padding-top: 46px;
+        }
+        
+        .top {
+            padding: 35px 0 68px 0;
+        }
+        
+        .leftTop {
+            float: left;
+            position: relative;
+        }
+        
+        .leftTop div {
+            width: 189px;
+            height: 299px;
+            position: absolute;
+            opacity: 0.5;
+            filter: alpha(opacity=50);
+        }
+        
+        .leftTop .green {
+            background: #428d59;
+            top: 0;
+            left: 0;
+        }
+        
+        .leftTop .red {
+            background: #cc7680;
+            top: 0;
+            right: 0;
+        }
+        
+        .rightTop {
+            float: right;
+            padding-top: 10px;
+            width: 200px;
+            border-top: 2px solid #cc8091;
+        }
+        
+        .rightTop h2 {
+            font-size: 24px;
+            line-height: 30px;
+            text-decoration: underline;
+            color: #040000;
+        }
+        
+        .rightTop .jie {
+            font-family: "楷体";
+            line-height: 10px;
+            color: #aeaeae;
+        }
+        
+        .rightTop .r7 {
+            font-size: 116px;
+            color: #75b86b;
+            font-style: italic;
+            padding-top: 10px;
+        }
+        
+        .rightTop span {
+            color: #cc8091;
+            font-size: 55px;
+            font-family: "微软雅黑";
+            float: left;
+            padding-right: 5px;
+        }
+        
+        .rightTop .css {
+            font-size: 21px;
+            padding-top: 23px;
+            color: #cc8091;
+        }
+        
+        .rightTop .csss {
+            color: #d3d3d3;
+        }
+        
+        .content {
+            padding-top: 36px;
+        }
+        
+        .content li {
+            width: 255px;
+            padding-right: 28px;
+            float: left;
+        }
+        
+        .content h3 {
+            font-family: "微软雅黑";
+            font-size: 16px;
+            line-height: 18px;
+            text-decoration: underline;
+            padding-bottom: 6px;
+        }
+        
+        .content .h31 {
+            color: #418c59;
+        }
+        
+        .content .h32 {
+            color: #d2994f;
+        }
+        
+        .content .h33 {
+            width: 134px;
+        }
+        
+        .content .h33 h3 {
+            color: #cc7680;
+        }
+        
+        .content p {
+            color: #767777;
+            line-height: 16px;
+        }
+        
+        .bottom {
+            height: 610px;
+            padding-bottom: 40px;
+        }
+        
+        .bottomL {
+            float: left;
+            width: 416px;
+            height: 610px;
+        }
+        
+        .bottomL h2 {
+            color: #11456b;
+            font-size: 42px;
+            line-height: 40px;
+        }
+        
+        .bottomL h2 span {
+            font-size: 72px;
+            color: #f5e327;
+            font-style: italic;
+        }
+        
+        .bottomL h3 {
+            font-size: 33px;
+            color: #11456b;
+            line-height: 43px;
+            padding-bottom: 16px;
+        }
+        
+        .bottomL p {
+            padding-top: 20px;
+            border-top: 2px solid #10456b;
+            color: #767777;
+            line-height: 16px;
+        }
+        
+        .bottomL p span {
+            font-size: 70px;
+            color: #f5e327;
+            line-height: 40px;
+            float: left;
+            padding: 20px 6px 10px 0;
+        }
+        
+        .bottomL img {
+            float: right;
+            padding: 20px 0 10px 20px;
+        }
+        
+        .bottomR {
+            float: right;
+            width: 458px;
+        }
+        
+        .brTop {
+            width: 458px;
+            height: 257px;
+            position: relative;
+            margin-bottom: 30px;
+        }
+        
+        .brTop .cover1 {
+            background: #040000;
+            opacity: 0.4;
+            filter: alpha(opacity=40);
+            width: 258px;
+            height: 60px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+        
+        .brTop .cover2 {
+            width: 3px;
+            height: 44px;
+            position: absolute;
+            left: 38px;
+            bottom: 8px;
+            background: #72b16a;
+        }
+        
+        .brTop .cover3 {
+            position: absolute;
+            bottom: 14px;
+            left: 54px;
+            color: #8abd83;
+            font-style: italic;
+        }
+        
+        .brTop .cover3 span {
+            font-size: 26px;
+            color: #fff;
+            font-style: normal;
+            display: inline-block;
+            padding-right: 10px;
+        }
+        
+        .brBottom {
+            width: 458px;
+            height: 318px;
+            background: #eeedd6;
+        }
+        
+        .list {
+            padding: 20px 0 17px 30px;
+        }
+        
+        .list li {
+            height: 40px;
+            background: url(../img/task1_6/bg.gif) no-repeat 0 15px;
+            line-height: 40px;
+            text-indent: 18px;
+            font-size: 12px;
+            color: #5a5b5b;
+        }
+        
+        .list span {
+            font-size: 16px;
+        }
+        
+        .world {
+            height: 160px;
+        }
+        
+        .worldL {
+            background: #d45d5c;
+            width: 260px;
+            height: 160px;
+            float: left;
+        }
+        
+        .worldR {
+            float: right;
+            width: 162px;
+            padding-right: 20px;
+            color: #bcbbac;
+            font-size: 14px;
+            line-height: 16px;
+        }
+        
+        .worldR span {
+            color: #d4545c;
+        }
+        
+        .foot {
+            border-top: 1px solid #938e8c;
+        }
+        
+        .foot p {
+            float: right;
+            line-height: 14px;
+            color: #d45d5c;
+        }
