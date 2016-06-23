@@ -29,7 +29,7 @@ gulp.task('sass', function() {
     return gulp.src("src/sass/*.scss")
         .pipe(plugins.sourcemaps.init())
         .pipe(plugins.sass().on('error', plugins.sass.logError))
-        .pipe(plugins.sourcemaps.write())
+        .pipe(plugins.sourcemaps.write("../sass"))
         .pipe(gulp.dest("src/css"))
         .pipe(browserSync.reload({
             stream: true
