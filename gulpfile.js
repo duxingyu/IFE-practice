@@ -6,7 +6,7 @@ var gulp = require('gulp'),
 //---------------检查js文件-----------------
 
 gulp.task('lint', function() {
-    return gulp.src('app/js/*.js')
+    return gulp.src('src/js/*.js')
         .pipe(plugins.jshint())
         .pipe(plugins.jshint.reporter('default'));
 });
@@ -16,20 +16,20 @@ gulp.task('lint', function() {
 gulp.task('serve', ['sass'], function() {
 
     browserSync.init({
-        server: "./app"
+        server: "./src"
     });
 
-    gulp.watch("app/sass/*.scss", ['sass']);
-    gulp.watch("app/index.html").on('change', browserSync.reload);
+    gulp.watch("src/sass/*.scss", ['sass']);
+    gulp.watch("src/index.html").on('change', browserSync.reload);
 });
 
 
 gulp.task('sass', function() {
-    return gulp.src("app/sass/*.scss")
+    return gulp.src("src/sass/*.scss")
         .pipe(plugins.sourcemaps.init())
         .pipe(plugins.sass().on('error', plugins.sass.logError))
         .pipe(plugins.sourcemaps.write("./maps"))
-        .pipe(gulp.dest("app/css"))
+        .pipe(gulp.dest("src/css"))
         .pipe(browserSync.reload({
             stream: true
         }));
@@ -40,11 +40,11 @@ gulp.task('livereload', ['serve']);
 //-----------------检查、压缩js---------------------
 
 gulp.task('js', function() {
-    return gulp.src('app/js/*.js')
+    return gulp.src('src/js/*.js')
         .pipe(plugins.jshint())
         .pipe(plugins.jshint.reporter('default'))
         .pipe(plugins.uglify())
-        // .pipe(plugins.concat('app.js'))
+        // .pipe(plugins.concat('src.js'))
         /*.pipe(plugins.rename(function (path) {
             path.basename += '.min';
             return path;
@@ -55,7 +55,7 @@ gulp.task('js', function() {
 //------------加前缀、压缩css---------------
 
 gulp.task('mincss', function() {
-    return gulp.src('app/css/*.css')
+    return gulp.src('src/css/*.css')
         .pipe(plugins.autoprefixer({
             browsers: ['last 2 versions'],
             cascade: false
@@ -69,7 +69,7 @@ gulp.task('mincss', function() {
 //---------------压缩HTML----------------
 
 gulp.task('minhtml', function() {
-    return gulp.src('app/*.html')
+    return gulp.src('src/*.html')
         .pipe(plugins.htmlmin({
             collapseWhitespace: true
         }))
@@ -79,7 +79,7 @@ gulp.task('minhtml', function() {
 //---------------图片压缩----------------
 
 gulp.task('minimg', function() {
-    return gulp.src('app/img/**/*')
+    return gulp.src('src/img/**/*')
         .pipe(plugins.imagemin())
         .pipe(gulp.dest('dist/img'));
 })
@@ -87,9 +87,9 @@ gulp.task('minimg', function() {
 //---------------编译pug------------------
 
 gulp.task('pug', function() {
-    return gulp.src('app/pug/*.pug')
+    return gulp.src('src/pug/*.pug')
         .pipe(plugins.pug({}))
-        .pipe(gulp.dest('app'));
+        .pipe(gulp.dest('src'));
 });
 
 gulp.task('default', ['mincss','minhtml','minimg']);
