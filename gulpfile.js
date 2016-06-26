@@ -6,7 +6,7 @@ var gulp = require('gulp'),
 //---------------检查js文件-----------------
 
 gulp.task('lint', function() {
-    return gulp.src('src/js/*.js')
+    return gulp.src('app/js/*.js')
         .pipe(plugins.jshint())
         .pipe(plugins.jshint.reporter('default'));
 });
@@ -16,32 +16,31 @@ gulp.task('lint', function() {
 gulp.task('serve', ['sass'], function() {
 
     browserSync.init({
-        server: "./src"
+        server: "./app"
     });
 
-    gulp.watch("src/sass/*.scss", ['sass']);
-    // gulp.watch("src/css/*.css");
-    gulp.watch("src/index.html").on('change', browserSync.reload);
+    gulp.watch("app/sass/*.scss", ['sass']);
+    gulp.watch("app/index.html").on('change', browserSync.reload);
 });
 
 
 gulp.task('sass', function() {
-    return gulp.src("src/sass/*.scss")
+    return gulp.src("app/sass/*.scss")
         .pipe(plugins.sourcemaps.init())
         .pipe(plugins.sass().on('error', plugins.sass.logError))
-        .pipe(plugins.sourcemaps.write("../sass"))
-        .pipe(gulp.dest("src/css"))
+        .pipe(plugins.sourcemaps.write("./maps"))
+        .pipe(gulp.dest("app/css"))
         .pipe(browserSync.reload({
             stream: true
         }));
 });
 // 
-gulp.task('default', ['serve']);
+gulp.task('livereload', ['serve']);
 
 //-----------------检查、压缩js---------------------
 
 gulp.task('js', function() {
-    return gulp.src('src/js/*.js')
+    return gulp.src('app/js/*.js')
         .pipe(plugins.jshint())
         .pipe(plugins.jshint.reporter('default'))
         .pipe(plugins.uglify())
@@ -55,8 +54,8 @@ gulp.task('js', function() {
 
 //------------加前缀、压缩css---------------
 
-gulp.task('dcss', function() {
-    return gulp.src('src/css/*.css')
+gulp.task('mincss', function() {
+    return gulp.src('app/css/*.css')
         .pipe(plugins.autoprefixer({
             browsers: ['last 2 versions'],
             cascade: false
@@ -70,25 +69,27 @@ gulp.task('dcss', function() {
 //---------------压缩HTML----------------
 
 gulp.task('minhtml', function() {
-    return gulp.src('src/libs/*.html')
+    return gulp.src('app/*.html')
         .pipe(plugins.htmlmin({
             collapseWhitespace: true
         }))
-        .pipe(gulp.dest('dist/libs'));
+        .pipe(gulp.dest('dist'));
 });
 
 //---------------图片压缩----------------
 
 gulp.task('minimg', function() {
-    return gulp.src('src/img/**/*')
+    return gulp.src('app/img/**/*')
         .pipe(plugins.imagemin())
         .pipe(gulp.dest('dist/img'));
 })
 
 //---------------编译pug------------------
 
-gulp.task('cpug', function() {
-    return gulp.src('src/pug/*.pug')
+gulp.task('pug', function() {
+    return gulp.src('app/pug/*.pug')
         .pipe(plugins.pug({}))
-        .pipe(gulp.dest('src/libs'));
+        .pipe(gulp.dest('app'));
 });
+
+gulp.task('default', ['mincss','minhtml','minimg']);
