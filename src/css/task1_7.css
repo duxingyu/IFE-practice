@@ -1,769 +1,769 @@
 body {
-    width: 1280px;
-    font-family: "黑体", Arial, sans-serif;
+  width: 1280px;
+  font-family: "黑体", Arial, sans-serif;
 }
 
 #topnav {
-    height: 57px;
-    position: relative;
+  height: 57px;
+  position: relative;
 }
 
 #title {
-    font-size: 21px;
-    line-height: 57px;
-    float: left;
-    height: 57px;
-    text-indent: 101px;
-    background: url(../img/task1_7/logo.gif) no-repeat 59px 13px;
+  font-size: 21px;
+  line-height: 57px;
+  float: left;
+  height: 57px;
+  text-indent: 101px;
+  background: url(../img/task1_7/logo.gif) no-repeat 59px 13px;
 }
 
 #topnav .nav {
-    float: right;
-    margin-right: 122px;
+  float: right;
+  margin-right: 122px;
 }
 
 #topnav .nav li {
-    float: left;
+  float: left;
 }
 
 #topnav a {
-    color: #787b83;
-    font-size: 14px;
-    height: 40px;
-    display: block;
-    padding: 17px 22px 0 22px;
+  color: #787b83;
+  font-size: 14px;
+  height: 40px;
+  display: block;
+  padding: 17px 22px 0 22px;
 }
 
 #topnav a:hover,
 #topnav .active {
-    background: url(../img/task1_7/borderB.gif) no-repeat center bottom;
-    color: #e74f4d;
+  background: url(../img/task1_7/borderB.gif) no-repeat center bottom;
+  color: #e74f4d;
 }
 
 #topnav #log {
-    position: absolute;
-    top: 14px;
-    right: 65px;
-    color: #e74f4d;
-    font-size: 14px;
-    display: block;
-    background: url(../img/task1_7/share.gif) no-repeat -137px 0;
-    width: 48px;
-    height: 16px;
-    text-indent: 19px;
-    padding-top: 1px;
-    cursor: pointer;
+  position: absolute;
+  top: 14px;
+  right: 65px;
+  color: #e74f4d;
+  font-size: 14px;
+  display: block;
+  background: url(../img/task1_7/share.gif) no-repeat -137px 0;
+  width: 48px;
+  height: 16px;
+  text-indent: 19px;
+  padding-top: 1px;
+  cursor: pointer;
 }
 
 #banner {
-    position: relative;
-    height: 940px;
+  position: relative;
+  height: 940px;
 }
 
 #bigImg {
-    position: relative;
+  position: relative;
 }
 
 #bigImg .shade {
-    width: 1280px;
-    height: 690px;
-    background: #040000;
-    opacity: 0.2;
-    filter: alpha(opacity=50);
-    position: absolute;
-    top: 0;
-    left: 0;
+  width: 1280px;
+  height: 690px;
+  background: #040000;
+  opacity: 0.2;
+  filter: alpha(opacity=50);
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 #bigImg .desc {
-    position: absolute;
-    top: 230px;
-    left: 118px;
-    color: #fff;
+  position: absolute;
+  top: 230px;
+  left: 118px;
+  color: #fff;
 }
 
 #bigImg .desc h2 {
-    font-size: 60px;
+  font-size: 60px;
 }
 
 #bigImg .desc p {
-    font-size: 21px;
-    line-height: 33px;
-    padding: 9px 0 0 8px;
+  font-size: 21px;
+  line-height: 33px;
+  padding: 9px 0 0 8px;
 }
 
 #bigImg .desc a {
-    color: #fff;
-    display: block;
-    width: 330px;
-    height: 64px;
-    font-size: 30px;
-    line-height: 64px;
-    text-align: center;
-    background: #e8504e;
-    margin: 62px 0 0 9px;
+  color: #fff;
+  display: block;
+  width: 330px;
+  height: 64px;
+  font-size: 30px;
+  line-height: 64px;
+  text-align: center;
+  background: #e8504e;
+  margin: 62px 0 0 9px;
 }
 
 #banner .list {
-    position: absolute;
-    left: 0;
-    top: 690px;
-    background: #fff;
-    height: 250px;
+  position: absolute;
+  left: 0;
+  top: 690px;
+  background: #fff;
+  height: 250px;
 }
 
 #banner .list li {
-    font-size: 14px;
-    color: #767777;
-    line-height: 18px;
-    width: 320px;
-    float: left;
-    height: 250px;
-    padding-top: 130px;
-    text-align: center;
-    position: relative;
-    background: url(../img/task1_7/listbg.gif) no-repeat right 132px;
+  font-size: 14px;
+  color: #767777;
+  line-height: 18px;
+  width: 320px;
+  float: left;
+  height: 250px;
+  padding-top: 130px;
+  text-align: center;
+  position: relative;
+  background: url(../img/task1_7/listbg.gif) no-repeat right 132px;
 }
 
 .list1Bg,
 .list2Bg,
 .list3Bg,
 .list4Bg {
-    background: url(../img/task1_7/icon.gif) no-repeat;
-    width: 41px;
-    height: 40px;
-    position: absolute;
-    top: 46px;
-    left: 140px
+  background: url(../img/task1_7/icon.gif) no-repeat;
+  width: 41px;
+  height: 40px;
+  position: absolute;
+  top: 46px;
+  left: 140px
 }
 
 #banner .list1Bg {
-    background-position: 0 0;
+  background-position: 0 0;
 }
 
 #banner .list2Bg {
-    background-position: 0 -40px;
+  background-position: 0 -40px;
 }
 
 #banner .list3Bg {
-    background-position: 0 -80px;
+  background-position: 0 -80px;
 }
 
 #banner .list4Bg {
-    background-position: 0 -120px;
+  background-position: 0 -120px;
 }
 
 #banner .list .list4 {
-    background: none;
+  background: none;
 }
 
 #city {
-    height: 1306px;
+  height: 1306px;
 }
 
 .cityTop {
-    height: 270px;
-    background: #edecec;
-    text-align: center;
-    padding-top: 90px;
+  height: 270px;
+  background: #edecec;
+  text-align: center;
+  padding-top: 90px;
 }
 
 .cityTop p {
-    color: #a1a1a1;
-    font-size: 54px;
-    padding-top: 48px;
+  color: #a1a1a1;
+  font-size: 54px;
+  padding-top: 48px;
 }
 
 .cityMain {
-    height: 340px;
-    position: relative;
+  height: 340px;
+  position: relative;
 }
 
 .cityMain .shade {
-    width: 1280px;
-    height: 340px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: #a93432;
-    opacity: 0.2;
-    filter: alpha(opacity=20);
+  width: 1280px;
+  height: 340px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #a93432;
+  opacity: 0.2;
+  filter: alpha(opacity=20);
 }
 
 .cityMain .desc {
-    text-align: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 1280px;
-    background: url(../img/task1_7/whiteline.gif) no-repeat 625px 84px;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1280px;
+  background: url(../img/task1_7/whiteline.gif) no-repeat 625px 84px;
 }
 
 .cityMain .desc h3 {
-    font-size: 21px;
-    color: #fff;
-    padding-top: 52px;
+  font-size: 21px;
+  color: #fff;
+  padding-top: 52px;
 }
 
 .cityMain .desc p {
-    font-size: 12px;
-    color: #fff;
-    padding-top: 32px;
+  font-size: 12px;
+  color: #fff;
+  padding-top: 32px;
 }
 
 .sell dl {
-    float: left;
-    padding: 52px 0 0 126px;
+  float: left;
+  padding: 52px 0 0 126px;
 }
 
 .sell ul {
-    display: none;
-    width: 236px;
-    border: 1px solid #daa29f;
-    background: #e4e3e5;
-    height: 168px;
+  display: none;
+  width: 236px;
+  border: 1px solid #daa29f;
+  background: #e4e3e5;
+  height: 168px;
 }
 
 .sell li {
-    color: #787878;
-    font-size: 12px;
-    height: 26px;
-    line-height: 26px;
-    text-align: left;
-    text-indent: 30px;
+  color: #787878;
+  font-size: 12px;
+  height: 26px;
+  line-height: 26px;
+  text-align: left;
+  text-indent: 30px;
 }
 
 .sell li a {
-    color: #787878;
-    font-size: 12px;
-    height: 26px;
-    line-height: 26px;
-    text-align: left;
-    text-indent: 30px;
-    display: block;
+  color: #787878;
+  font-size: 12px;
+  height: 26px;
+  line-height: 26px;
+  text-align: left;
+  text-indent: 30px;
+  display: block;
 }
 
 .sell li a:hover {
-    background: #be4e48;
-    color: #fff;
+  background: #be4e48;
+  color: #fff;
 }
 
 .sell dd {
-    width: 236px;
-    height: 36px;
-    background: #fff;
-    margin-right: 28px;
-    position: relative;
-    float: left;
+  width: 236px;
+  height: 36px;
+  background: #fff;
+  margin-right: 28px;
+  position: relative;
+  float: left;
 }
 
 .sell h2 {
-    width: 235px;
-    height: 34px;
-    text-indent: 12px;
-    border: 1px solid #e2d8d6;
-    font-weight: normal;
-    font-size: 12px;
-    color: #a8aaaa;
-    text-align: left;
-    line-height: 34px;
+  width: 235px;
+  height: 34px;
+  text-indent: 12px;
+  border: 1px solid #e2d8d6;
+  font-weight: normal;
+  font-size: 12px;
+  color: #a8aaaa;
+  text-align: left;
+  line-height: 34px;
 }
 
 .sell .downmenu {
-    position: absolute;
-    top: 9px;
-    left: 209px;
-    background: url(../img/task1_7/share.gif) no-repeat -107px 0;
-    width: 18px;
-    height: 17px;
+  position: absolute;
+  top: 9px;
+  left: 209px;
+  background: url(../img/task1_7/share.gif) no-repeat -107px 0;
+  width: 18px;
+  height: 17px;
 }
 
 .sell .search {
-    width: 236px;
-    height: 36px;
-    background: #be4e48;
-    letter-spacing: 24px;
-    font-size: 14px;
-    color: #fff;
-    float: left;
-    line-height: 36px;
-    text-indent: 25px;
+  width: 236px;
+  height: 36px;
+  background: #be4e48;
+  letter-spacing: 24px;
+  font-size: 14px;
+  color: #fff;
+  float: left;
+  line-height: 36px;
+  text-indent: 25px;
 }
 
 .cityBottom {
-    height: 406px;
-    padding: 100px 0 100px 130px;
-    text-align: center;
-    background: #f7f7f7;
+  height: 406px;
+  padding: 100px 0 100px 130px;
+  text-align: center;
+  background: #f7f7f7;
 }
 
 .cityBottom li {
-    float: left;
-    width: 254px;
-    height: 406px;
+  float: left;
+  width: 254px;
+  height: 406px;
 }
 
 .cityBottom img {
-    padding: 12px 8px;
-    border: 1px solid #cecece;
-    border-bottom: none;
-    background: #fff;
-    margin-bottom: 14px;
+  padding: 12px 8px;
+  border: 1px solid #cecece;
+  border-bottom: none;
+  background: #fff;
+  margin-bottom: 14px;
 }
 
 .cityBottom h3 {
-    font-size: 16px;
-    padding-bottom: 10px;
-    font-weight: normal;
+  font-size: 16px;
+  padding-bottom: 10px;
+  font-weight: normal;
 }
 
 .cityBottom p {
-    color: #c2c2c2;
-    font-size: 12px;
-    padding-bottom: 20px;
+  color: #c2c2c2;
+  font-size: 12px;
+  padding-bottom: 20px;
 }
 
 .intro {
-    height: 1086px;
+  height: 1086px;
 }
 
 .world {
-    height: 566px;
+  height: 566px;
 }
 
 .worldPic {
-    position: relative;
-    width: 850px;
-    float: left;
+  position: relative;
+  width: 850px;
+  float: left;
 }
 
 .worldPic .desc {
-    position: absolute;
-    top: 132px;
-    left: 240px;
-    color: #fff;
-    text-align: center;
-    width: 380px;
-    height: 300px;
-    float: right;
+  position: absolute;
+  top: 132px;
+  left: 240px;
+  color: #fff;
+  text-align: center;
+  width: 380px;
+  height: 300px;
+  float: right;
 }
 
 .worldPic .desc h3 {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 .worldPic .desc p {
-    font-size: 158px;
+  font-size: 158px;
 }
 
 .worldPic .desc strong {
-    font-size: 22px;
-    line-height: 45px;
+  font-size: 22px;
+  line-height: 45px;
 }
 
 .worldText {
-    float: right;
-    width: 428px;
-    position: relative;
-    height: 566px;
+  float: right;
+  width: 428px;
+  position: relative;
+  height: 566px;
 }
 
 .worldText .angle {
-    position: absolute;
-    top: 268px;
-    left: -26px;
-    width: 24px;
-    height: 30px;
-    background: url(../img/task1_7/angle.gif) no-repeat;
+  position: absolute;
+  top: 268px;
+  left: -26px;
+  width: 24px;
+  height: 30px;
+  background: url(../img/task1_7/angle.gif) no-repeat;
 }
 
 .worldText li {
-    width: 290px;
-    text-align: center;
-    padding-left: 72px;
+  width: 290px;
+  text-align: center;
+  padding-left: 72px;
 }
 
 .worldText h3 {
-    font-size: 20px;
-    padding: 164px 0 22px 0;
+  font-size: 20px;
+  padding: 164px 0 22px 0;
 }
 
 .worldText span {
-    color: #e74f4d;
+  color: #e74f4d;
 }
 
 .worldText p {
-    color: #bdbdbd;
-    line-height: 30px;
-    font-size: 12px;
-    padding-bottom: 42px;
+  color: #bdbdbd;
+  line-height: 30px;
+  font-size: 12px;
+  padding-bottom: 42px;
 }
 
 .worldText .more {
-    width: 103px;
-    height: 31px;
-    line-height: 31px;
-    color: #e25c60;
-    font-size: 12px;
-    text-align: center;
-    border: 1px solid #e5676a;
-    display: inline-block;
+  width: 103px;
+  height: 31px;
+  line-height: 31px;
+  color: #e25c60;
+  font-size: 12px;
+  text-align: center;
+  border: 1px solid #e5676a;
+  display: inline-block;
 }
 
 .worldText .more:hover {
-    background: #e25c60;
-    color: #fff;
+  background: #e25c60;
+  color: #fff;
 }
 
 .worldText .slide {
-    height: 12px;
-    width: 78px;
-    margin: 0 auto;
-    padding-top: 24px;
+  height: 12px;
+  width: 78px;
+  margin: 0 auto;
+  padding-top: 24px;
 }
 
 .worldText .slide a {
-    background: url(../img/task1_7/share.gif) no-repeat -125px -12px;
-    float: left;
-    width: 12px;
-    height: 12px;
-    margin: 0 7px;
+  background: url(../img/task1_7/share.gif) no-repeat -125px -12px;
+  float: left;
+  width: 12px;
+  height: 12px;
+  margin: 0 7px;
 }
 
 .worldText .slide a:hover,
 .world .slide .active {
-    background: url(../img/task1_7/share.gif) no-repeat -125px 0;
+  background: url(../img/task1_7/share.gif) no-repeat -125px 0;
 }
 
 .era {
-    height: 520px;
-    position: relative;
+  height: 520px;
+  position: relative;
 }
 
 .era .left {
-    width: 426px;
-    background: #e74f4d;
-    text-align: center;
-    height: 520px;
-    background: #e74f4d url(../img/task1_7/whiteline.gif) no-repeat 200px 248px;
-    float: left;
+  width: 426px;
+  background: #e74f4d;
+  text-align: center;
+  height: 520px;
+  background: #e74f4d url(../img/task1_7/whiteline.gif) no-repeat 200px 248px;
+  float: left;
 }
 
 .era .left h3 {
-    font-size: 21px;
-    color: #fff;
-    line-height: 30px;
-    padding: 168px 0 46px 0;
-    font-weight: normal;
+  font-size: 21px;
+  color: #fff;
+  line-height: 30px;
+  padding: 168px 0 46px 0;
+  font-weight: normal;
 }
 
 .era .left a {
-    display: inline-block;
-    width: 166px;
-    height: 41px;
-    font-size: 21px;
-    line-height: 41px;
-    color: #fff;
-    text-align: center;
-    border: 1px solid #fff;
+  display: inline-block;
+  width: 166px;
+  height: 41px;
+  font-size: 21px;
+  line-height: 41px;
+  color: #fff;
+  text-align: center;
+  border: 1px solid #fff;
 }
 
 .era .left a:hover {
-    color: #e74f4d;
-    background: #fff;
+  color: #e74f4d;
+  background: #fff;
 }
 
 .era .middle {
-    width: 426px;
-    text-align: center;
-    height: 520px;
-    background: url(../img/task1_7/eraline2.gif) no-repeat 200px 248px;
-    float: left;
+  width: 426px;
+  text-align: center;
+  height: 520px;
+  background: url(../img/task1_7/eraline2.gif) no-repeat 200px 248px;
+  float: left;
 }
 
 .era .middle .angle {
-    position: absolute;
-    top: 246px;
-    right: 404px;
-    background: url(../img/task1_7/angle.gif) no-repeat -24px 0;
-    width: 24px;
-    height: 30px;
-    z-index: 1;
+  position: absolute;
+  top: 246px;
+  right: 404px;
+  background: url(../img/task1_7/angle.gif) no-repeat -24px 0;
+  width: 24px;
+  height: 30px;
+  z-index: 1;
 }
 
 .era .middle h3 {
-    font-size: 21px;
-    color: #000;
-    line-height: 30px;
-    padding: 168px 0 46px 0;
-    font-weight: normal;
+  font-size: 21px;
+  color: #000;
+  line-height: 30px;
+  padding: 168px 0 46px 0;
+  font-weight: normal;
 }
 
 .era .middle a {
-    display: inline-block;
-    width: 166px;
-    height: 41px;
-    font-size: 21px;
-    line-height: 41px;
-    color: #e74f4d;
-    text-align: center;
-    border: 1px solid #e74f4d;
+  display: inline-block;
+  width: 166px;
+  height: 41px;
+  font-size: 21px;
+  line-height: 41px;
+  color: #e74f4d;
+  text-align: center;
+  border: 1px solid #e74f4d;
 }
 
 .era .middle a:hover {
-    color: #fff;
-    background: #e74f4d;
+  color: #fff;
+  background: #e74f4d;
 }
 
 .era .right {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 428px;
-    height: 520px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 428px;
+  height: 520px;
 }
 
 .era .shade {
-    width: 428px;
-    height: 520px;
-    background: #000;
-    opacity: 0.4;
-    position: absolute;
-    top: 0;
-    left: 0;
-    filter: alpha(opacity=40);
+  width: 428px;
+  height: 520px;
+  background: #000;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  filter: alpha(opacity=40);
 }
 
 .join {
-    height: 510px;
-    padding: 120px;
+  height: 510px;
+  padding: 120px;
 }
 
 .join .joinus {
-    text-align: center;
-    height: 182px;
+  text-align: center;
+  height: 182px;
 }
 
 .join .joinus h2 {
-    color: #323333;
-    font-size: 21px;
+  color: #323333;
+  font-size: 21px;
 }
 
 .join .joinus div {
-    height: 2px;
-    width: 30px;
-    display: inline-block;
-    background: #ea6563;
-    margin: 11px 0;
-    overflow: hidden;
+  height: 2px;
+  width: 30px;
+  display: inline-block;
+  background: #ea6563;
+  margin: 11px 0;
+  overflow: hidden;
 }
 
 .join .joinus p {
-    color: #aaa;
-    font-size: 12px;
-    line-height: 18px;
+  color: #aaa;
+  font-size: 12px;
+  line-height: 18px;
 }
 
 .join .agreement {
-    float: left;
-    width: 290px;
-    height: 284px;
-    padding: 0 74px 0 18px;
+  float: left;
+  width: 290px;
+  height: 284px;
+  padding: 0 74px 0 18px;
 }
 
 .join .agreement div {
-    padding-bottom: 36px;
+  padding-bottom: 36px;
 }
 
 .join .agreement h4 {
-    color: #666160;
-    font-size: 14px;
-    font-weight: normal;
-    padding-bottom: 18px;
-    line-height: 20px;
+  color: #666160;
+  font-size: 14px;
+  font-weight: normal;
+  padding-bottom: 18px;
+  line-height: 20px;
 }
 
 .join .agreement p {
-    color: #c3c2c2;
-    font-size: 12px;
-    line-height: 21px;
-    padding-bottom: 6px;
+  color: #c3c2c2;
+  font-size: 12px;
+  line-height: 21px;
+  padding-bottom: 6px;
 }
 
 .join .agreement a {
-    color: #959291;
-    font-size: 12px;
-    float: right;
-    background: url(../img/task1_7/share.gif) no-repeat -137px -20px;
-    display: block;
-    height: 6px;
-    line-height: 6px;
-    width: 42px;
-    text-indent: 17px;
+  color: #959291;
+  font-size: 12px;
+  float: right;
+  background: url(../img/task1_7/share.gif) no-repeat -137px -20px;
+  display: block;
+  height: 6px;
+  line-height: 6px;
+  width: 42px;
+  text-indent: 17px;
 }
 
 .join .agreement .txt2 {
-    padding-bottom: 8px;
+  padding-bottom: 8px;
 }
 
 .join .txt3 h4 {
-    padding-bottom: 13px;
+  padding-bottom: 13px;
 }
 
 .join .commit {
-    float: right;
-    width: 656px;
+  float: right;
+  width: 656px;
 }
 
 .commit input,
 .commit textarea {
-    background: #ededef;
-    border: none;
-    outline: none;
-    color: #787474;
-    margin: 0 18px 14px 0;
-    float: left;
-    text-indent: 16px;
-    font-size: 12px;
+  background: #ededef;
+  border: none;
+  outline: none;
+  color: #787474;
+  margin: 0 18px 14px 0;
+  float: left;
+  text-indent: 16px;
+  font-size: 12px;
 }
 
 .commit input {
-    width: 310px;
-    height: 40px;
+  width: 310px;
+  height: 40px;
 }
 
 .commit textarea {
-    width: 638px;
-    height: 120px;
-    line-height: 32px;
+  width: 638px;
+  height: 120px;
+  line-height: 32px;
 }
 
 .commit #apply {
-    color: #323333;
-    width: 638px;
-    font-size: 14px;
-    cursor: pointer;
+  color: #323333;
+  width: 638px;
+  font-size: 14px;
+  cursor: pointer;
 }
 
 .commit #apply:hover {
-    color: #fff;
-    background: #e74f4d;
+  color: #fff;
+  background: #e74f4d;
 }
 
 .contect {
-    height: 358px;
-    text-align: center;
-    position: relative;
-    background: #33363f;
+  height: 358px;
+  text-align: center;
+  position: relative;
+  background: #33363f;
 }
 
 .contect h3 {
-    font-size: 21px;
-    color: #fff;
-    line-height: 37px;
-    padding-top: 82px;
+  font-size: 21px;
+  color: #fff;
+  line-height: 37px;
+  padding-top: 82px;
 }
 
 .contect p {
-    font-size: 12px;
-    line-height: 18px;
-    color: #fff;
+  font-size: 12px;
+  line-height: 18px;
+  color: #fff;
 }
 
 #email {
-    width: 511px;
-    height: 41px;
-    position: absolute;
-    top: 182px;
-    left: 386px;
+  width: 511px;
+  height: 41px;
+  position: absolute;
+  top: 182px;
+  left: 386px;
 }
 
 #email .text {
-    width: 429px;
-    height: 39px;
-    border: 1px solid #a5a6aa;
-    position: absolute;
-    top: 0;
-    left: 0;
-    color: #aaa;
-    text-indent: 8px;
-    font-size: 14px;
-    outline: none;
+  width: 429px;
+  height: 39px;
+  border: 1px solid #a5a6aa;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #aaa;
+  text-indent: 8px;
+  font-size: 14px;
+  outline: none;
 }
 
 #email .btn {
-    width: 80px;
-    height: 41px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    background: #6f7178;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    outline: none;
+  width: 80px;
+  height: 41px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #6f7178;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  outline: none;
 }
 
 .contect .share {
-    width: 182px;
-    height: 25px;
-    position: absolute;
-    left: 550px;
-    top: 260px;
+  width: 182px;
+  height: 25px;
+  position: absolute;
+  left: 550px;
+  top: 260px;
 }
 
 .share a {
-    float: left;
-    display: block;
+  float: left;
+  display: block;
 }
 
 #qq,
 #weibo,
 #twitter,
 #web {
-    height: 25px;
-    background: url(../img/task1_7/share.gif) no-repeat;
+  height: 25px;
+  background: url(../img/task1_7/share.gif) no-repeat;
 }
 
 #qq {
-    margin-right: 23px;
-    width: 24px;
+  margin-right: 23px;
+  width: 24px;
 }
 
 #weibo {
-    background-position: -24px 0;
-    margin-right: 27px;
-    width: 29px;
+  background-position: -24px 0;
+  margin-right: 27px;
+  width: 29px;
 }
 
 #twitter {
-    background-position: -53px 0;
-    margin-right: 20px;
-    width: 29px;
+  background-position: -53px 0;
+  margin-right: 20px;
+  width: 29px;
 }
 
 #web {
-    background-position: -82px 0;
-    width: 25px;
+  background-position: -82px 0;
+  width: 25px;
 }
 
 .foot {
-    height: 56px;
-    background: #2f3038;
+  height: 56px;
+  background: #2f3038;
 }
 
 .foot p {
-    font-size: 12px;
-    color: #fff;
-    float: left;
-    padding: 28px 0 0 100px;
+  font-size: 12px;
+  color: #fff;
+  float: left;
+  padding: 28px 0 0 100px;
 }
 
 .foot a {
-    color: #fff;
-    float: right;
-    padding: 30px 40px 0 0;
-    font-family: "宋体";
-    font-weight: bold;
-    font-size: 12px;
+  color: #fff;
+  float: right;
+  padding: 30px 40px 0 0;
+  font-family: "宋体";
+  font-weight: bold;
+  font-size: 12px;
 }

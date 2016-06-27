@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>task 14:零基础JavaScript编程（二）</title>
+  </head>
+<body>
+
+  <h3>污染城市列表</h3>
+  <ul id="aqi-list">
+<!--   
+    <li>第一名：福州（样例），10</li>
+    <li>第二名：福州（样例），10</li> -->
+  </ul>
+
+<script type="text/javascript">
+  var oList = document.getElementById('aqi-list');
+  var aqiData = [
+    ["北京", 90],
+    ["上海", 50],
+    ["福州", 10],
+    ["广州", 50],
+    ["成都", 90],
+    ["西安", 100]
+  ];
+
+  (function () {
+    var arr = [];
+    var result = '';
+
+    for (var i = 0; i < aqiData.length; i++) {
+      if (aqiData[i][1] > 60) {
+        arr.push(aqiData[i]);
+      }
+    }
+    arr.sort(function(a,b) {
+      return b[1] - a[1];
+    });
+    for (var i = 0; i < arr.length; i++) {
+      result += '<li>第' + (i + 1) + '名：' + arr[i][0] + ',' + arr[i][1] +'</li><br>';
+    }
+
+    oList.innerHTML = result;
+  })();
+
+</script>
+</body>
+</html>
