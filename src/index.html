@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>textfile</title>
+  <link rel="stylesheet" href="css/html5.css">
+  <link rel="stylesheet" href="css/reset.css">
+</head>
+<body>
+  <section class="media">
+    <video width="320" height="176" loop>
+      <source src="1.ogg" type="video/ogg">
+      <source src="img/html5/1.mp4" type="video/mp4">
+    Your browser don't support the video tag.
+    </video>
+    <audio controls>
+      <source src="img/html5/1.mp3" type="audio/mpeg"><!-- mpeg!!! -->
+    Your browser don't support the audio tag.
+    </audio><br>
+    <button>播放/暂停</button>
+    <p><details>autoplay: 自动播放。controls: 播放控件。muted: 静音。<mark>poster: 播放前显示图像(url).</mark>preload: 预备播放。loop: 结束后重新开始。</details></p>
+  </section>
+  <figure><a href="#">
+    <img src="img/html5/1.png" alt="picture"  id="scream">
+    <figcaption>纪念碑谷</figcaption></a>
+  </figure>
+  <section class="draw">
+    <canvas id="rectangle" width="150" height="100"></canvas>
+    <canvas id="line" width="150" height="100"></canvas>
+    <canvas id="circle" width="150" height="100"></canvas>
+    <canvas id="gradient" width="150" height="100"></canvas>
+    <canvas id="gradient2" width="150" height="100"></canvas>
+    <canvas id="text" width="150" height="100"></canvas>
+    <canvas id="image" width="150" height="100"></canvas>
+  </section>
+  <footer>
+    <p>&amp;copy; 2014 Monday Times. All rights reserved.</p>
+  </footer>
+  <script src="js/html5.js"></script>
+</body>
+</html>

@@ -1,240 +1,170 @@
+@charset "UTF-8";
 body {
   margin: 50px;
-  font-family: "Microsoft Yahei";
-}
+  font-family: "Microsoft Yahei"; }
 
 .list1 {
-  overflow: hidden;
-}
-
-.list1 li {
-  width: 100px;
-  height: 100px;
-  float: left;
-  margin-right: 20px;
-}
-
-.list1 li:first-child {
-  background-color: lightskyblue;
-}
-
-.list1 li:nth-child(2) {
-  background-color: green;
-}
-
-.list1 li:nth-of-type(3) {
-  background-image: linear-gradient(to right, red, orange, yellow, green, lightgreen, darkblue);
-}
-
-.list1 li:last-of-type {
-  background-color: gray;
-}
-
-.list1 li:last-of-type span:only-child {
-  color: #fff;
-}
+  overflow: hidden; }
+  .list1 li {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 20px; }
+    .list1 li:first-child {
+      background-color: lightskyblue; }
+    .list1 li:nth-child(2) {
+      background-color: green; }
+    .list1 li:nth-of-type(3) {
+      background-image: linear-gradient(to right, red, orange, yellow, green, lightgreen, darkblue); }
+    .list1 li:last-of-type {
+      background-color: gray; }
+      .list1 li:last-of-type span:only-child {
+        color: #fff; }
 
 .list2 {
-  margin-top: 20px;
-}
-
-.list2 li {
-  width: 200px;
-  height: 20px;
-  color: #f60;
-}
-
-.list2 li:nth-child(odd) {
-  background-color: #ccc;
-}
-
-.list2 li:nth-child(even) {
-  background-color: #f60;
-}
-
-.list2 li:nth-child(2)::selection {
-  color: lawngreen;
-  background-color: #14c7f3;
-}
-
-.list2 li:empty {
-  height: 40px;
-}
-
-.list2 li:not(.notsele) {
-  color: #000;
-}
+  margin-top: 20px; }
+  .list2 li {
+    width: 200px;
+    height: 20px;
+    color: #f60; }
+    .list2 li:nth-child(odd) {
+      background-color: #ccc; }
+    .list2 li:nth-child(even) {
+      background-color: #f60; }
+    .list2 li:nth-child(2)::selection {
+      color: lawngreen;
+      background-color: #14c7f3; }
+    .list2 li:empty {
+      height: 40px; }
+    .list2 li:not(.notsele) {
+      color: #000; }
 
 :root {
-  background-color: #f5f5f5;
-}
+  background-color: #f5f5f5; }
 
 .wrap1 p:first-child {
   text-shadow: 5px 5px 5px #f60;
   font-size: 30px;
-  position: relative;
-}
-
-.wrap1 p:first-child::before {
-  content: "👬👬👬";
-}
-
-.wrap1 p:first-child::after {
-  content: "";
-  height: 0;
-  width: 0;
-  border-right: 10px solid transparent;
-  border-left: 10px solid transparent;
-  border-top: 10px solid transparent;
-  border-bottom: 20px solid yellow;
-}
+  position: relative; }
+  .wrap1 p:first-child::before {
+    content: "👬👬👬"; }
+  .wrap1 p:first-child::after {
+    content: "";
+    height: 0;
+    width: 0;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-top: 10px solid transparent;
+    border-bottom: 20px solid yellow; }
 
 .wrap1 p:nth-child(2) {
   color: transparent;
   -webkit-text-stroke: 1px green;
   font-size: 50px;
   font-weight: 700;
-  font-family: "宋体";
-}
+  font-family: "宋体"; }
 
 .wrap1 p:last-of-type {
   width: 200px;
   height: 30px;
   text-overflow: ellipsis;
   overflow: hidden;
-  white-space: nowrap;
-}
+  white-space: nowrap; }
 
 .cicle {
   width: 100px;
   height: 50px;
   border-radius: 50px 50px 0 0;
   background-color: blueviolet;
-  border: 5px solid #14c7f3;
-}
+  border: 5px solid #14c7f3; }
 
 .transform {
-  height: 200px;
-}
-
-.transform div {
-  width: 100px;
-  height: 100px;
-  float: left;
-  margin: 10px;
-  font-weight: 700;
-  font-size: 30px;
-  color: #fff;
-}
-
-.transform div:first-child {
-  background-color: orangered;
-  transform: translate(-50px, 0);
-  text-align: right;
-}
-
-.transform div:nth-child(2) {
-  background-color: lightslategray;
-  transform: scaleY(1.5);
-}
-
-.transform div:nth-child(3) {
-  background-color: greenyellow;
-  transform: rotate(30deg);
-}
-
-.transform div:nth-child(4) {
-  background-color: darkblue;
-  transform: skew(30deg, 30deg);
-}
-
-.transform div:last-child {
-  background-color: deeppink;
-  transform: skew(30deg, 30deg);
-  transform-origin: right center;
-}
+  height: 200px; }
+  .transform div {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 10px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff; }
+    .transform div:first-child {
+      background-color: orangered;
+      transform: translate(-50px, 0);
+      text-align: right; }
+    .transform div:nth-child(2) {
+      background-color: lightslategray;
+      transform: scaleY(1.5); }
+    .transform div:nth-child(3) {
+      background-color: greenyellow;
+      transform: rotate(30deg); }
+    .transform div:nth-child(4) {
+      background-color: darkblue;
+      transform: skew(30deg, 30deg); }
+    .transform div:last-child {
+      background-color: deeppink;
+      transform: skew(30deg, 30deg);
+      transform-origin: right center; }
 
 .transition {
-  margin-bottom: 20px;
-}
-
-.transition div {
-  width: 100px;
-  height: 100px;
-}
-
-.transition > div {
-  background-color: #14c7f3;
-  position: relative;
-  transition-property: width, color;
-  transition-duration: 1s;
-  transition-timing-function: ease;
-  transition-delay: 0s;
-  overflow: hidden;
-}
-
-.transition > div div {
-  position: absolute;
-  top: 80px;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.3);
-  transition-property: top, width;
-  transition-duration: 1s;
-  transition-timing-function: ease;
-  transition-delay: 0s;
-}
-
-.transition > div:hover {
-  width: 200px;
-  color: #f60;
-}
-
-.transition > div:hover div {
-  top: 0;
-  width: 200px;
-}
+  margin-bottom: 20px; }
+  .transition div {
+    width: 100px;
+    height: 100px; }
+  .transition > div {
+    background-color: #14c7f3;
+    position: relative;
+    transition-property: width,color;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    overflow: hidden; }
+    .transition > div div {
+      position: absolute;
+      top: 80px;
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.3);
+      transition-property: top,width;
+      transition-duration: 1s;
+      transition-timing-function: ease;
+      transition-delay: 0s; }
+    .transition > div:hover {
+      width: 200px;
+      color: #f60; }
+      .transition > div:hover div {
+        top: 0;
+        width: 200px; }
 
 @keyframes animation {
   from {
-    background-color: #14c7f3;
-  }
+    background-color: #14c7f3; }
   to {
-    background-color: #f60;
-  }
-}
+    background-color: #f60; } }
 
 .animation {
   width: 100px;
   height: 100px;
-  background-color: #14c7f3;
-}
-
-.animation:hover {
-  animation-name: animation;
-  animation-duration: 4s;
-  animation-timing-function: ease-in;
-  animation-delay: 0s;
-  animation-iteration-count: infinite;
-  animation-direction: reverse;
-  animation-fill-mode: backwards;
-}
+  background-color: #14c7f3; }
+  .animation:hover {
+    animation-name: animation;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-fill-mode: backwards; }
 
 .layout {
   column-count: 3;
   column-width: 200px;
   column-gap: 30px;
-  column-rule: 1px dashed #ccc;
-}
-
-.layout h3 {
-  column-span: all;
-  text-align: center;
-  padding: 10px 0;
-}
-
-.layout p {
-  line-height: 1.5;
-}
+  column-rule: 1px dashed #ccc; }
+  .layout h3 {
+    column-span: all;
+    text-align: center;
+    padding: 10px 0; }
+  .layout p {
+    line-height: 1.5; }
 
 textarea {
   width: 200px;
@@ -243,110 +173,71 @@ textarea {
   outline: 10px solid #f60;
   outline-offset: 10px;
   border: 10px solid #f60;
-  margin: 30px;
-}
+  margin: 30px; }
 
-.task > div,
-.task table {
-  margin-top: 20px;
-}
+.task > div, .task table {
+  margin-top: 20px; }
 
 .task1 input {
   width: 100px;
   border: 1px solid #ccc;
   border-radius: 2px;
-  transition: width 1s ease-in-out 0s;
-}
-
-.task1 input:focus {
-  box-shadow: 1px 1px 1px #14c7f3, -1px -1px 1px #14c7f3;
-  width: 200px;
-  border: none;
-}
+  transition: width 1s ease-in-out 0s; }
+  .task1 input:focus {
+    box-shadow: 1px 1px 1px #14c7f3,-1px -1px 1px #14c7f3;
+    width: 200px;
+    border: none; }
 
 .task2 {
   border-collapse: collapse;
-  text-align: left;
-}
-
-.task2 td,
-.task2 th {
-  border: 1px solid #fff;
-}
-
-.task2 tr:first-child {
-  background-color: #000 !important;
-  color: #fff;
-}
-
-.task2 tr:nth-child(even) {
-  background-color: #ccc;
-}
-
-.task2 tr:nth-child(odd) {
-  background-color: #fff;
-}
-
-.task2 tr:nth-child(2),
-.task2 tr:nth-child(3),
-.task2 tr:nth-child(4) {
-  color: red;
-}
+  text-align: left; }
+  .task2 td, .task2 th {
+    border: 1px solid #fff; }
+  .task2 tr:first-child {
+    background-color: #000 !important;
+    color: #fff; }
+  .task2 tr:nth-child(even) {
+    background-color: #ccc; }
+  .task2 tr:nth-child(odd) {
+    background-color: #fff; }
+  .task2 tr:nth-child(2), .task2 tr:nth-child(3), .task2 tr:nth-child(4) {
+    color: red; }
 
 @keyframes task3 {
   0% {
-    left: 0;
-  }
+    left: 0; }
   20% {
-    left: 0;
-  }
+    left: 0; }
   40% {
-    left: -200px;
-  }
+    left: -200px; }
   60% {
-    left: -200px;
-  }
+    left: -200px; }
   80% {
-    left: -400px;
-  }
+    left: -400px; }
   100% {
-    left: -400px;
-  }
-}
+    left: -400px; } }
 
 .task3 {
   position: relative;
   overflow: hidden;
   width: 200px;
-  height: 150px;
-}
-
-.task3 ol {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 150px;
-  width: 600px;
-  animation: task3 8s ease 1s infinite normal backwards;
-}
-
-.task3 ol li {
-  width: 200px;
-  height: 150px;
-  float: left;
-}
-
-.task3 ol li:first-child {
-  background-color: green;
-}
-
-.task3 ol li:nth-child(2) {
-  background-color: blue;
-}
-
-.task3 ol li:last-child {
-  background-color: yellow;
-}
-
+  height: 150px; }
+  .task3 ol {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 150px;
+    width: 600px;
+    animation: task3 8s ease 1s infinite normal backwards; }
+    .task3 ol li {
+      width: 200px;
+      height: 150px;
+      float: left; }
+      .task3 ol li:first-child {
+        background-color: green; }
+      .task3 ol li:nth-child(2) {
+        background-color: blue; }
+      .task3 ol li:last-child {
+        background-color: yellow; }
 
 /*# sourceMappingURL=maps/task1_12.css.map */
