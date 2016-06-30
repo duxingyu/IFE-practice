@@ -2,7 +2,7 @@
   padding: 10px;
   border: 1px solid #ccc;
   background: #f5f5f5; }
-  .media details {
+  .media summary {
     cursor: pointer; }
   .media mark {
     background: #f60; }
@@ -13,10 +13,13 @@ figure {
   margin: 10px;
   border: 1px solid #aaa;
   border-radius: 5px; }
+  figure:hover {
+    box-shadow: 2px 2px 5px gray; }
   figure a {
     color: #aaa; }
     figure a:hover {
-      color: orange; }
+      color: orange;
+      font-weight: 700; }
   figure img {
     width: 100px;
     height: 100px; }
@@ -26,5 +29,19 @@ figure {
 
 canvas {
   border: 1px solid #000; }
+
+table {
+  border-collapse: collapse; }
+  table col:first-child {
+    background: #ccc; }
+  table col:last-child {
+    background: orange; }
+  table td, table th {
+    border: 1px solid #000;
+    padding: 5px;
+    text-align: center; }
+
+.other del {
+  color: gray; }
 
 /*# sourceMappingURL=maps/html5.css.map */

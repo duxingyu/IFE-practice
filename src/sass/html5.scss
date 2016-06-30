@@ -2,7 +2,7 @@
   padding: 10px;
   border: 1px solid #ccc;
   background: #f5f5f5;
-  details {
+  summary {
     cursor: pointer;
   }
   mark {
@@ -15,15 +15,18 @@ figure {
   margin: 10px;
   border: 1px solid #aaa;
   border-radius: 5px;
+  &:hover {box-shadow: 2px 2px 5px gray;}
   a {
     color: #aaa;
     &:hover {
       color: orange;
+      font-weight: 700;
     }
   }
   img {
     width: 100px;
     height: 100px;
+
   }
   figcaption {
     text-align: center;
@@ -32,4 +35,17 @@ figure {
 }
 canvas {
   border: 1px solid #000;
+}
+table {
+  border-collapse: collapse;
+  col:first-child {background: #ccc;}
+  col:last-child {background: orange;}
+  td,th {
+    border: 1px solid #000;
+    padding: 5px;
+    text-align: center;
+  }
+}
+.other {
+  del {color: gray;}
 }
