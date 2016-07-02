@@ -7,12 +7,14 @@ body {
   display: block;
   clear: both;
 }
-
+.clear {
+  zoom: 1;
+}
 .wrap {
   padding: 20px;
   background: #eee;
   border: 1px solid #999;
-  position: relative;
+  min-width: 600px;
 }
 
 .left {
@@ -52,9 +54,7 @@ body {
   width: 120px;
   border: 1px solid #979797;
   background: #fff;
-  position: absolute;
-  top: 20px;
-  right: 20px;
+  float: right;
 }
 
 .right div {
